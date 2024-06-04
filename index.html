@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.js" defer ></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.js" defer ></script>
 	<script src="./assets/scripts.js" defer ></script>
 	<title>Nina Carducci</title>
@@ -37,13 +37,13 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/images/slider/banner-slide-1-man.jpg" class="d-block w-100" alt="Banner image1 man">
+						<img src="./assets/images/slider/banner-slide-1-man-min.jpg" class="d-block w-100" alt="Banner image1 man">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/banner-slide-2-peoples.jpg" class="d-block w-100" alt="Banner image2 peoples">
+						<img src="./assets/images/slider/banner-slide-2-peoples-min.jpg" class="d-block w-100" alt="Banner image2 peoples">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/banner-slide-3-marriage.jpg" class="d-block w-100" alt="Banner image3 marriage ">
+						<img src="./assets/images/slider/banner-slide-3-marriage-min.jpg" class="d-block w-100" alt="Banner image3 marriage ">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -60,7 +60,7 @@
 	<main>
 		<section id="about">
 				<div class="picture left">
-					<img src="./assets/images/nina.png" alt="image Nina Carducci">
+					<img src="./assets/images/nina-min.png" alt="image Nina Carducci">
 				</div>
 				<div id="about-me">
 					<h2 class="about-me__title">A propos de moi</h2>
@@ -73,15 +73,15 @@
 			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
-					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-arron-paul.jpg" alt="concert-arron-paul" />
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-ali-morshedlou.jpg" alt="entreprise ali morshedlou"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-jason-goodman.jpg" alt="entreprise jason goodman"/>
-					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/marriage-hannah-busing.jpg" alt="mariage hannah busing"/>
-					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait_men.jpg" alt="portrait men"/>
-					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/marriage-jakob-owens.jpg" alt="mariage jakob owens"/>
-					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait_women.jpg" alt="portrait women"/>
-					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-austin-neill.jpg" alt="concert austin neill"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-mateus-campos-felipe.jpg" alt="entreprise mateus campos felipe"/>
+					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-arron-paul-min.jpg" alt="concert-arron-paul" />
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-ali-morshedlou-min.jpg" alt="entreprise ali morshedlou"/>
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-jason-goodman-min.jpg" alt="entreprise jason goodman"/>
+					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/marriage-hannah-busing-min.jpg" alt="mariage hannah busing"/>
+					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait_men-min.jpg" alt="portrait men"/>
+					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/marriage-jakob-owens-min.jpg" alt="mariage jakob owens"/>
+					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait_women-min.jpg" alt="portrait women"/>
+					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-austin-neill-min.jpg" alt="concert austin neill"/>
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-mateus-campos-felipe-min.jpg" alt="entreprise mateus campos felipe"/>
 				</div>
 			</div>
 			<div class="quote">
@@ -142,17 +142,17 @@
 					<h3>Une question ? Une demande de devis ?</h3>
 					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 					<form action="" method="post">
-						<label>Nom</label>
+						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom">
-						<label>Email</label>
+						<label for="email">Email</label>
 						<input type="email" name="email" id="email">
-						<label>Message</label>
+						<label for="message">Message</label>
 						<textarea name="message" id="message" cols="30" rows="10"></textarea>
 						<input type="submit" value="Envoyer"/>
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/camera.png" alt="Camera">
+					<img src="./assets/images/camera-min.png" alt="Camera">
 				</div>
 			</div>
 		</section>
