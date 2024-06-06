@@ -56,6 +56,9 @@ img{
 	padding-block: 100px;
 	position: relative;
 }
+.picture.left{
+	max-width: 40%;
+}
 
 .picture.left::before {
 	content: ' ';
@@ -110,6 +113,10 @@ img{
 .nav-pills .nav-link {
 	color: #000
 }
+span.nav-link.active.active-tag {
+	color: #000000;
+	background-color: #ffffff;
+  }
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -248,10 +255,14 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
 	}
+	.picture.left{
+	max-width: 45%;
+}
 	#about, #contact .container {
 		align-items: center;
 	}
@@ -263,6 +274,7 @@ input[type="submit"] {
 		width: 100%;
 	}
 }
+
 
 @media all and (max-width: 1000px) {
 	#about{
