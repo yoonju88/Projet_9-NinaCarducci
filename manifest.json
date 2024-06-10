@@ -4,7 +4,7 @@
     "start_url":"/",
     "display":"standalone",
     "background_color":"#ffffff",
-    "theme_color":"f6d2b8",
+    "theme_color":"#f6d2b8",
     "description":"Nina Carducci est une photographe française, spécialisée dans la prise de vos moments les plus précieux.",
     "icons": [
         {
@@ -14,19 +14,19 @@
             "purpose": "any maskable"
         },
         {
-            "src": "./assets/images/slider/banner-slide-1-man-min.jpg",
+            "src": "./assets/images/slider/banner-slide-1-man-min.webp",
             "sizes": "956x446",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/slider/banner-slide-2-peoples-min.jpg",
+            "src": "./assets/images/slider/banner-slide-2-peoples-min.webp",
             "sizes": "956x446",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/slider/banner-slide-3-marriage-min.jpg",
+            "src": "./assets/images/slider/banner-slide-3-marriage-min.webp",
             "sizes": "956x446",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
             "src": "./assets/images/nina-min.png",
