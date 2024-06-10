@@ -1,0 +1,95 @@
+{
+    "name":"Nina Carducci",
+    "short_name":"Web",
+    "start_url":"/",
+    "display":"standalone",
+    "background_color":"#ffffff",
+    "theme_color":"f6d2b8",
+    "description":"Nina Carducci est une photographe française, spécialisée dans la prise de vos moments les plus précieux.",
+    "icons": [
+        {
+            "src": "./assets/images/instagram-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./assets/images/slider/banner-slide-1-man-min.jpg",
+            "sizes": "956x446",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/slider/banner-slide-2-peoples-min.jpg",
+            "sizes": "956x446",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/slider/banner-slide-3-marriage-min.jpg",
+            "sizes": "956x446",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/nina-min.png",
+            "sizes": "514x513",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./assets/images/gallery/concerts/concert-arron-paul-min.jpg",
+            "sizes": "446x621",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/entreprise/entreprise-ali-morshedlou-min.jpg",
+            "sizes": "446x699",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/entreprise/entreprise-jason-goodman-min.jpg",
+            "sizes": "446x315",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/entreprise/entreprise-jason-goodman-min.jpg",
+            "sizes": "446x315",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/mariage/marriage-hannah-busing-min.jpg",
+            "sizes": "446x373",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/portraits/portrait_men-min.jpg",
+            "sizes": "446x498",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/mariage/marriage-jakob-owens-min.jpg",
+            "sizes": "446x499",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/portraits/portrait_women-min.jpg",
+            "sizes": "446x700",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/concerts/concert-austin-neill-min.jpg",
+            "sizes": "446x311",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/gallery/entreprise/entreprise-mateus-campos-felipe-min.jpg",
+            "sizes": "446x285",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/camera-min.png",
+            "sizes": "514x513",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+
+    ]
+}
