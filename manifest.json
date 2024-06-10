@@ -29,15 +29,15 @@
             "type": "image/webp"
         },
         {
-            "src": "./assets/images/nina-min.png",
+            "src": "./assets/images/nina-min.webp",
             "sizes": "514x513",
-            "type": "image/png",
+            "type": "image/webp",
             "purpose": "any maskable"
         },
         {
-            "src": "./assets/images/gallery/concerts/concert-arron-paul-min.jpg",
+            "src": "./assets/images/gallery/concerts/concert-arron-paul-min.webp",
             "sizes": "446x621",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
             "src": "./assets/images/gallery/entreprise/entreprise-ali-morshedlou-min.jpg",
@@ -45,49 +45,49 @@
             "type": "image/jpg"
         },
         {
-            "src": "./assets/images/gallery/entreprise/entreprise-jason-goodman-min.jpg",
+            "src": "./assets/images/gallery/entreprise/entreprise-jason-goodman-min.webp",
             "sizes": "446x315",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/gallery/entreprise/entreprise-jason-goodman-min.jpg",
+            "src": "./assets/images/gallery/entreprise/entreprise-jason-goodman-min.webp",
             "sizes": "446x315",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/gallery/mariage/marriage-hannah-busing-min.jpg",
+            "src": "./assets/images/gallery/mariage/marriage-hannah-busing-min.webp",
             "sizes": "446x373",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/gallery/portraits/portrait_men-min.jpg",
+            "src": "./assets/images/gallery/portraits/portrait_men-min.webp",
             "sizes": "446x498",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/gallery/mariage/marriage-jakob-owens-min.jpg",
+            "src": "./assets/images/gallery/mariage/marriage-jakob-owens-min.webp",
             "sizes": "446x499",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/gallery/portraits/portrait_women-min.jpg",
+            "src": "./assets/images/gallery/portraits/portrait_women-min.webp",
             "sizes": "446x700",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/gallery/concerts/concert-austin-neill-min.jpg",
+            "src": "./assets/images/gallery/concerts/concert-austin-neill-min.webp",
             "sizes": "446x311",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/gallery/entreprise/entreprise-mateus-campos-felipe-min.jpg",
+            "src": "./assets/images/gallery/entreprise/entreprise-mateus-campos-felipe-min.webp",
             "sizes": "446x285",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
-            "src": "./assets/images/camera-min.png",
+            "src": "./assets/images/camera-min.webp",
             "sizes": "514x513",
-            "type": "image/png",
+            "type": "image/webp",
             "purpose": "any maskable"
         }
     ]
