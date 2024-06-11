@@ -8,9 +8,9 @@
     "description":"Nina Carducci est une photographe française, spécialisée dans la prise de vos moments les plus précieux.",
     "icons": [
         {
-            "src": "./assets/images/instagram-512.png",
+            "src": "./assets/images/instagram-512.webp",
             "sizes": "512x512",
-            "type": "image/png",
+            "type": "image/webp",
             "purpose": "any maskable"
         },
         {
