@@ -14,18 +14,18 @@
             "purpose": "any maskable"
         },
         {
-            "src": "./assets/images/slider/banner-slide-1-man-min.webp",
-            "sizes": "956x446",
+            "src": "./assets/images/slider/banner-slide-1-man-m.webp",
+            "sizes": "1200x555",
             "type": "image/webp"
         },
         {
-            "src": "./assets/images/slider/banner-slide-2-peoples-min.webp",
-            "sizes": "956x446",
+            "src": "./assets/images/slider/banner-slide-2-peoples-m.webp",
+            "sizes": "1200x555",
             "type": "image/webp"
         },
         {
-            "src": "./assets/images/slider/banner-slide-3-marriage-min.webp",
-            "sizes": "956x446",
+            "src": "./assets/images/slider/banner-slide-3-marriage-m.webp",
+            "sizes": "1200x555",
             "type": "image/webp"
         },
         {
