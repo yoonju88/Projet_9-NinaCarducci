@@ -40,9 +40,9 @@
             "type": "image/webp"
         },
         {
-            "src": "./assets/images/gallery/entreprise/entreprise-ali-morshedlou-min.jpg",
+            "src": "./assets/images/gallery/entreprise/entreprise-ali-morshedlou-min.webp",
             "sizes": "446x699",
-            "type": "image/jpg"
+            "type": "image/webp"
         },
         {
             "src": "./assets/images/gallery/entreprise/entreprise-jason-goodman-min.webp",
