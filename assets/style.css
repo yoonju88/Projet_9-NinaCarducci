@@ -259,6 +259,7 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
 @media all and (max-width: 1440px){
 	.form-container__title{
 		width: 75%;

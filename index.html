@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="manifest" href="manifest.json">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -204,15 +204,15 @@
 			</div>
 		</section>
 	</main>
-	<footer>
-		<h5 itemprop="address">Adresse</h5>
-		<section  itemscope itemtype="http://schema.org/PostalAddress"> 
+	<footer hidden>
+		<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+			<b>Adresse : </b>
 			<span itemprop="streetAddress">68 avenue Alsace-Lorraine,</span>
 			<span itemprop="postalCode">33200</span>
 			<span itemprop="addressLocality"> Bordeaux</span>
-		</section>
-		<p >Tel : <span itemprop="telephone">05 56 67 78 89</span></p>
-		<p itemprop="openingHours"> Du lundi au vendredi 10h - 19h</p>
+		</div>
+		<p>Tel : <span itemprop="telephone">05 56 67 78 89</span></p>
+		<p>Heure d'ouverture : <span itemprop="openingHours">Du lundi au vendredi 10h - 19h</span></p>
 	</footer>
 </body>
 </html>
