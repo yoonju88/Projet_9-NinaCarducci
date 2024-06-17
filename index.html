@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" itemscope itemtype="http://schema.org/Photograph">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="manifest" href="manifest.json">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="description" content="Nina Carducci est une photographe française, spécialisée dans la prise de vos moments les plus précieux.">
 	<meta name="theme-color" content="#f6d2b8">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
@@ -16,12 +16,40 @@
 	<script src="./assets/maugallery.js" defer ></script>
 	<script src="./assets/scripts.js" defer ></script>
 	<link rel="icon" href="assets/images/favicon.ico">
+	<meta property="og:site_name" content="Nina Carducci" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://yoonju88.github.io/Projet_9-NinaCarducci/" />
+	<meta property="og:title" content="Nina Carducci - photograph" />
+	<meta property="og:description" content="Nina Carducci est une photographe française, spécialisée dans la prise de vos moments les plus précieux." />
+	<meta property="og:image" content="https://raw.githubusercontent.com/yoonju88/Projet_9-NinaCarducci/main/assets/images/nina-opengraph.webp" />
+	<meta name="twitter:card" content="Nina Carducci" />
+	<meta name="twitter:site" content="@Nina Carducci" />
+	<meta name="twitter:title" content="Nina Carducci - photograph" />
+	<meta name="twitter:description" content="Nina Carducci est une photographe française, spécialisée dans la prise de vos moments les plus précieux." />
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/yoonju88/Projet_9-NinaCarducci/main/assets/images/nina_twitter.webp" />
+	<meta name="twitter:url" content="https://yoonju88.github.io/Projet_9-NinaCarducci/" />
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "LocalBusiness",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200"
+			},
+			"telephone": "05 56 67 78 89",
+			"name": "Nina Carducci",
+			"openingHours": "Mo-Fr 10:00-19:00",
+			"image":"https://github.com/yoonju88/Projet_9-NinaCarducci/blob/main/assets/images/nina-min.webp"
+		}
+	</script>
 	<title>Nina Carducci</title>
 </head>
-<body>
+<body  itemscope itemtype="http://schema.org/LocalBusiness">
 	<header>
 		<div class="top-header">
-			<h1 class="name">Nina Carducci</h1>
+			<h1 class="name" itemprop="name">Nina Carducci</h1>
 			<nav class="nav">   
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -71,12 +99,12 @@
 		</div>
 	</header>	
 	<main>
-		<section id="about">
+		<section id="about"  >
 				<div class="picture left">
-					<img src="./assets/images/nina-min.webp" alt="image Nina Carducci" width="514" height="513">
+					<img itemprop="image" src="./assets/images/nina-min.webp" alt="image Nina Carducci" width="514" height="513">
 				</div>
 				<div id="about-me">
-					<h2 class="about-me__title">A propos de moi</h2>
+					<h2 class="about-me__title" >A propos de moi</h2>
 					<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
 					<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 						C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
@@ -109,28 +137,28 @@
 		<section id="services">
 			<h2 class="title">Mes services</h2>
 			<div class="container">
-				<article class="service">
+				<article class="service" >
 					<div class="service__description">
 						<h3>Shooting photo</h3>
 						<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 					</div>
-					<div class="service__price">
+					<div class="service__price" >
 						<h4>350€/demi journée</h4>
 						<span>Matériel, déplacement inclus</span>
 					</div>
 				</article>
-				<article class="service">
+				<article class="service" >
 					<div class="service__description">
 						<h3>Retouches</h3>
 						<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 					</div>
-					<div class="service__price">
+					<div class="service__price" >
 						<h4>50€/photo</h4>
 						<span>2 AR par photo</span>
 					</div>
 				</article>
 				<article class="service">
-					<div class="service__description">
+					<div class="service__description" >
 						<h3>Album photos</h3>
 						<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 					</div>
@@ -149,7 +177,7 @@
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</div>
-		<section id="contact">
+		<section id="contact" >
 			<div class="container">
 				<div class="form-container">
 					<div class="form-container__title">
@@ -172,5 +200,15 @@
 			</div>
 		</section>
 	</main>
+	<footer>
+		<h5 itemprop="address">Adresse</h5>
+		<section  itemscope itemtype="http://schema.org/PostalAddress"> 
+			<span itemprop="streetAddress">68 avenue Alsace-Lorraine,</span>
+			<span itemprop="postalCode">33200</span>
+			<span itemprop="addressLocality"> Bordeaux</span>
+		</section>
+		<p >Tel : <span itemprop="telephone">05 56 67 78 89</span></p>
+		<p itemprop="openingHours"> Du lundi au vendredi 10h - 19h</p>
+	</footer>
 </body>
 </html>
