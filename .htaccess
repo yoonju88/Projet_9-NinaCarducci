@@ -33,3 +33,5 @@
   ExpiresByType text/css "access plus 10 minutes"
   ExpiresByType application/javascript "access plus 10 minutes"
 </IfModule>
+
+Header always set Permissions-Policy "interest-cohort=()"
