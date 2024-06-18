@@ -29,9 +29,9 @@
 
 <IfModule mod_expires.c>
 	ExpiresActive On
-	ExpiresByType image/webp "access plus 10 minutes"
-  ExpiresByType text/css "access plus 10 minutes"
-  ExpiresByType application/javascript "access plus 10 minutes"
+	ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
 </IfModule>
 
 Header always set Permissions-Policy "interest-cohort=()"
