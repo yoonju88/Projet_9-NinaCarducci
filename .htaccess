@@ -23,3 +23,12 @@
   ExpiresByType application/x-javascript "access plus 1 year"
 </IfModule>
 
+<IfModule mod_headers.c>
+    <FilesMatch "\.(webp)$">
+        Header set Cache-Control "max-age=31536000, public"
+    </FilesMatch>
+    <FilesMatch "\.(css|js)$">
+        Header set Cache-Control "max-age=31536000, public"
+    </FilesMatch>
+</IfModule>
+
