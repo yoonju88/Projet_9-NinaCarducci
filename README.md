@@ -9,4 +9,5 @@ Avant optimisation
 Lien : https://ninacarducci.github.io/  
 Audit du site : https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/Audit+lighthouse+Desktop.pdf
 
-[terrenoire_yoonju_2_rapport_audit_lighthouse_03062024.pdf](https://github.com/user-attachments/files/16930549/terrenoire_yoonju_2_rapport_audit_lighthouse_03062024.pdf)
+
+Rapport optimisation : [terrenoire_yoonju_2_rapport_audit_lighthouse_03062024.pdf](https://github.com/user-attachments/files/16930549/terrenoire_yoonju_2_rapport_audit_lighthouse_03062024.pdf)
